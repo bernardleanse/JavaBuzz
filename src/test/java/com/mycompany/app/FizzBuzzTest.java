@@ -26,6 +26,11 @@ public class FizzBuzzTest {
     assertEquals("fizzbuzz", fb.fizzBuzz(15));
   }
 
+  @Test
+  public void returnsNumberAsStringIFNotDivisibleByThreeOrFive(){
+    assertEquals("7", fb.fizzBuzz(7));
+  }
+
 }
 
 
